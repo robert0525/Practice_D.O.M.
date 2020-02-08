@@ -13,8 +13,10 @@ h1 = document.getElementsByTagName('h1')[0].style.color = "blue";
 // The content should include at least one HTML tag
 
 
-// 4: Set the class of the <ul> to 'list'
 
+// 4: Set the class of the <ul> to 'list'
+var ul = document.getElementsByTagName('ul');
+ul.className = "list";
 
 // 5: Create a new list item and add it to the <ul>
 
