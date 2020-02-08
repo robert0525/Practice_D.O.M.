@@ -1,5 +1,5 @@
 // 1: Set the text of the <h1> element
-var first = document.getElementsByClassName('container');
+
 var h1 = document.getElementsByTagName('h1')[0].innerHTML = "This is h1 exercicse";
 
 
@@ -7,6 +7,7 @@ var h1 = document.getElementsByTagName('h1')[0].innerHTML = "This is h1 exercics
 
 // 2: Set the color of the <h1> to a different color
 
+h1 = document.getElementsByTagName('h1')[0].style.color = "blue";
 
 // 3: Set the content of the '.desc' paragraph
 // The content should include at least one HTML tag
