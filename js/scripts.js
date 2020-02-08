@@ -1,4 +1,8 @@
 // 1: Set the text of the <h1> element
+var first = document.getElementsByClassName('container');
+var h1 = document.getElementsByTagName('h1')[0].innerHTML = "This is h1 exercicse";
+
+
 
 
 // 2: Set the color of the <h1> to a different color
