@@ -19,7 +19,10 @@ var ul = document.getElementsByTagName('ul');
 ul.className = "list";
 
 // 5: Create a new list item and add it to the <ul>
+var myList = document.getElementsByClassName('list');
+let newList = document.createElement('li');
 
+newList.textContent = "Apple";
 
 // 6: Change all <input> elements from text fields to checkboxes
 
