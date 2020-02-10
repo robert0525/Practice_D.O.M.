@@ -20,7 +20,7 @@ list.className = "list";
 
 // 5: Create a new list item and add it to the <ul>
 const item = document.createElement('li');
-item.innerHTML = "Vladimir PUTIN";
+item.innerHTML = "<input> Vladimir PUTIN";
 
 list.appendChild(item);
 
