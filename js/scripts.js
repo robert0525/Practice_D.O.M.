@@ -12,7 +12,10 @@ h1 = document.querySelector('h1').style.color = "blue";
 // 3: Set the content of the '.desc' paragraph
 // The content should include at least one HTML tag
 
-p = dovument.getElementsByTagName('p')[0].innerHTML= "This is Paragraph text";
+var paragraph = document.querySelector('p.desc');
+var newParagraph = createTextNode("This is new Paragraph added using JavaScript");
+
+paragraph.appendChild(newParagraph);
 
 // 4: Set the class of the <ul> to 'list'
 var ul = document.getElementsByTagName('ul');
