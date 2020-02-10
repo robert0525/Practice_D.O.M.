@@ -1,13 +1,13 @@
 // 1: Set the text of the <h1> element
-
-var h1 = document.querySelector('h1').innerHTML = "This is h1 exercicse";
+const title = document.querySelector('h1');
+title.textContent = "This is h1 exercicse";
 
 
 
 
 // 2: Set the color of the <h1> to a different color
 
-h1 = document.querySelector('h1').style.color = "blue";
+title.style.color = "blue";
 
 // 3: Set the content of the '.desc' paragraph
 // The content should include at least one HTML tag
@@ -15,18 +15,14 @@ const paragraph = document.querySelector('.desc');
 paragraph.innerHTML = "My Paragraph in <strong>JavaScript</strong> exercise for fun";
 
 // 4: Set the class of the <ul> to 'list'
-const ul = document.querySelector('ul');
-ul.className = "list";
+const list = document.querySelector('ul');
+list.className = "list";
 
 // 5: Create a new list item and add it to the <ul>
-var myList = document.querySelector('ul.list');
-let newListIthem = document.createElement('li');
+const item = document.createElement('li');
+item.innerHTML = "Vladimir PUTIN";
 
-newListIthem.textContent = "Vladimir Putin";
-
-myList.appendChild(newListIthem);
-
- 
+list.appendChild(item);
 
 // 6: Change all <input> elements from text fields to checkboxn//
 var six = document.querySelector('input')
