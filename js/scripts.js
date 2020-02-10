@@ -35,6 +35,17 @@ for (let i = 0; i < input.length; i += 1) {
 
 // 7: Create a <button> element, and set its text to 'Delete'
 // Add the <button> inside the '.extra' <div>
+const deleteButton = document.createElement('button');
+deleteButton.textContent = "Delete";
 
+const extra = document.querySelector(".extra");
+extra.appendChild(deleteButton);
 
 // 8: Remove the '.extra' <div> element from the DOM when a user clicks the 'Delete' button
+
+const container = document.querySelector('.container');
+
+
+deleteButton.addEventListener('click', () => {
+    container.removeChild(extra);
+});
