@@ -25,7 +25,10 @@ item.innerHTML = "<input> Vladimir PUTIN";
 list.appendChild(item);
 
 // 6: Change all <input> elements from text fields to checkboxn//
-var six = document.querySelector('input')
+const input = document.getElementsByTagName('input');
+for (let i = 0; i < input.length; i += 1) {
+    input[i].type = "checkbox";
+}
 
 
 
