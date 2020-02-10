@@ -15,7 +15,7 @@ const paragraph = document.querySelector('.desc');
 paragraph.innerHTML = "My Paragraph in <strong>JavaScript</strong> exercise for fun";
 
 // 4: Set the class of the <ul> to 'list'
-var ul = document.getElementsByTagName('ul');
+const ul = document.querySelector('ul');
 ul.className = "list";
 
 // 5: Create a new list item and add it to the <ul>
