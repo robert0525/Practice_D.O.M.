@@ -11,7 +11,7 @@ h1 = document.querySelector('h1').style.color = "blue";
 
 // 3: Set the content of the '.desc' paragraph
 // The content should include at least one HTML tag
-const paragraph = document.querySelector('p');
+const paragraph = document.querySelector('.desc');
 paragraph.textContent = "My Paragraph";
 
 // 4: Set the class of the <ul> to 'list'
